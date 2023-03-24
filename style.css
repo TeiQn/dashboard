@@ -1,0 +1,88 @@
+.progenitor {
+    display: grid;
+    grid-template-rows: .5fr 1fr 4fr 1fr;
+    grid-template-columns: 1fr 5fr;
+}
+
+.left {
+    grid-row: 1/4;
+    grid-column: 1/2;
+    background-color: yellow;
+    padding: 50px;
+}
+
+.dash {
+    display: flex;
+    flex-direction: column;
+}
+
+.search {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    grid-row: 1/2;
+    grid-column: 2/4;
+    background-color: lightblue;
+    padding: 10px;
+}
+
+.profile {
+    max-height: 50px;
+    max-width: auto;
+    border-radius: 50%;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.searchright {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+.searchleft {
+    display: flex;
+    gap: 20px;
+}
+
+.bikprofile {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    grid-row: 2/3;
+    grid-column: 2/4;
+    background-color: purple;
+    align-items: center;
+    padding: 20px;
+}
+
+.bpleft {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.greeting {
+    display: flex;
+    flex-direction: column;
+}
+.profilebik {
+    max-height: 90px;
+    max-width: auto;
+    border-radius: 50%;
+}
+
+.content {
+    grid-row: 3/4;
+    grid-column: 2/4;
+    background-color: red;
+}
